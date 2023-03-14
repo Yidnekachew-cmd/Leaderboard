@@ -1,0 +1,137 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ddd;
+}
+
+nav .nav-icons {
+  display: flex;
+  gap: 1rem;
+  padding: 2.1rem 2rem 0 2rem;
+}
+
+.left-arrow,
+.right-arrow,
+.close-icon,
+.home-icon {
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.nav-icons i {
+  width: 100%;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem;
+  width: 55%;
+}
+
+.input-field .nav-title {
+  margin-top: 0.3rem;
+  margin-bottom: 0.4rem;
+  text-align: center;
+}
+
+form input {
+  padding: 0.2rem;
+}
+
+.input-field input {
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+}
+
+.search-field {
+  display: flex;
+  position: relative;
+  top: 0;
+  right: 0;
+  padding: 2rem;
+}
+
+.search-field i {
+  position: absolute;
+  padding-top: 0.3rem;
+  padding-left: 0.4rem;
+}
+
+.search-field input {
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  margin-right: 2rem;
+}
+
+main {
+  height: 80vh;
+}
+
+.page-title {
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+
+.content-container {
+  display: flex;
+  width: 70%;
+  margin: 3rem auto;
+  gap: 15rem;
+}
+
+.score-displays {
+  display: flex;
+  flex-direction: column;
+}
+
+.score-display {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.score-display .refresh {
+  padding: 0 0.5rem;
+  height: 30px;
+  cursor: pointer;
+}
+
+.score-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.add-score form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.add-score .submit {
+  width: 20%;
+  align-self: flex-end;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #ddd;
+  height: 6vh;
+}

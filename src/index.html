@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leader Board</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.min.css"
+      integrity="sha512-QfDd74mlg8afgSqm3Vq2Q65e9b3xMhJB4GZ9OcHDVy1hZ6pqBJPWWnMsKDXM7NINoKqJANNGBuVRIpIJ5dogfA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script difer src="https://kit.fontawesome.com/933ba69917.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-icons">
+          <div class="left-arrow">
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+          <div class="right-arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="close-icon">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="home-icon">
+            <i class="fa-solid fa-house-chimney"></i>
+          </div>
+        </div>
+        <div class="input-field">
+          <p class="nav-title">A Web Page</p>
+          <input
+            type="text"
+            class="nav-input"
+            placeholder="https://"
+            name="search"
+          />
+        </div>
+        <div class="search-field">
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <input type="text" class="search-input" placeholder="" />
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1 class="page-title">Leaderboard</h1>
+      <div class="content-container">
+        <div class="score-displays">
+          <div class="score-display">
+            <h2 class="recent-title">Recent scores</h2>
+            <button class="refresh" type="reset">Refresh</button>
+          </div>
+          <ul class="score-container">
+            <li>Besu:200</li>
+            <li>Aman:150</li>
+            <li>Midne:134</li>
+            <li>Joblu:130</li>
+            <li>Rayo:74</li>
+          </ul>
+        </div>
+        <div class="add-score">
+          <h2 class="add-title">Add your scores</h2>
+          <form action="">
+            <label for="name"></label>
+            <input
+              type="text"
+              placeholder="Your name"
+              name="name"
+              id="name"
+              required
+              pattern="([A-ZΆ-ΫÀ-ÖØ-Þ][A-ZΆ-ΫÀ-ÖØ-Þa-zά-ώß-öø-ÿ]{1,19} ?){1,10}"
+            />
+            <label for="score"></label>
+            <input
+              type="text"
+              placeholder="Your score"
+              name="score"
+              id="score"
+            />
+            <button class="submit" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    
+  </body>
+</html>
