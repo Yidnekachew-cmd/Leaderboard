@@ -90,6 +90,17 @@ main {
   gap: 15rem;
 }
 
+.list-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-icon {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
 .score-displays {
   display: flex;
   flex-direction: column;

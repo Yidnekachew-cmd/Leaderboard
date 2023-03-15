@@ -73,23 +73,13 @@ A website for organizing daily activities
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- TO DO LIST TASK SCREENSHOT -->
-
-## 🚀 Screenshot <a name="screenshot"></a>
-
-![Coming soon...]()
-
-## 💻 Loom Presentation Video <a name="loom-video"></a>
-
-- not available yet.
-
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
 
-- [Coming soon...]()
+<!-- - [Coming soon...]() -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
 
@@ -119,27 +109,30 @@ git clone git@github.com:Yidnekachew-cmd/Leaderboard.git (SSH)
 
 Install this project with:
 
-npx webpack init
-npm init -y
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+To run the webpack
+```sh
+npm install webpack
+```
+
+### Usage
+```sh
+npm run build
+npm start
+```
+
 
 ### Run tests
 
 To run tests, run the following command:
-
-To check Styelint error:-
-
-npx stylelint "\*_/_.{css,scss}"
-
-To check Eslint error:-
-
-npx eslint .
-
+```sh
+npm test
+```
 ### Deployment
 
 You can deploy this project using:
-Github Pages.
+```sh
+Github Pages
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
