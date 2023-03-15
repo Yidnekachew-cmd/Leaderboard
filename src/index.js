@@ -1,20 +1,21 @@
-import "./index.css";
-import scoreAdd from "./modules/addScore.js";
-import getScore from "./modules/getScore.js";
+import './index.css';
+import scoreAdd from './modules/addScore.js';
+import getScore from './modules/getScore.js';
 
-const scoreContainer = document.querySelector(".score-container");
-const refreshScore = document.querySelector(".refresh");
-const submitScore = document.querySelector(".submit");
-const msg = document.querySelector(".msg");
+// selecting elements
+const scoreContainer = document.querySelector('.score-container');
+const refreshScore = document.querySelector('.refresh');
+const submitScore = document.querySelector('.submit');
+const msg = document.querySelector('.msg');
 
-refreshScore.addEventListener("click", (event) => {
+refreshScore.addEventListener('click', (event) => {
   event.preventDefault();
   getScore(scoreContainer);
 });
 
-submitScore.addEventListener("click", (event) => {
+submitScore.addEventListener('click', (event) => {
   event.preventDefault();
-  const user = document.querySelector("#name").value;
-  const score = document.querySelector("#score").value;
+  const user = document.querySelector('#name').value;
+  const score = document.querySelector('#score').value;
   scoreAdd(scoreContainer, user, score, msg);
 });

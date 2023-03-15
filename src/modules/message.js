@@ -2,9 +2,10 @@ const messageDisplay = (msg, removeClass, addClass, innerHTML) => {
   msg.classList.remove(removeClass);
   msg.classList.add(addClass);
   msg.innerHTML = innerHTML;
+
   setTimeout(() => {
     msg.classList.remove(addClass);
-    msg.innerHTML = "";
+    msg.innerHTML = '';
   }, 2000);
 };
 
