@@ -110,22 +110,29 @@ git clone git@github.com:Yidnekachew-cmd/Leaderboard.git (SSH)
 Install this project with:
 
 To run the webpack
--> npm install webpack
+```sh
+npm install webpack
+```
 
 ### Usage
--> npm run build
--> npm start
+```sh
+npm run build
+npm start
+```
 
 
 ### Run tests
 
 To run tests, run the following command:
--> npm test
-
+```sh
+npm test
+```
 ### Deployment
 
 You can deploy this project using:
-Github Pages.
+```sh
+Github Pages
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
