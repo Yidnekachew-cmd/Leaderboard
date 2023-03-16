@@ -77,7 +77,7 @@ A website for organizing daily activities
 
 ## 🚀 Screenshot <a name="screenshot"></a>
 
-![image](../Leaderboard/src/Icon/Screenshot%202023-03-16%20112820.gif)
+![image](https://user-images.githubusercontent.com/104775335/225560428-bd786bb1-bc0e-475d-8496-5b9ab64e3855.png)
 
 
 <!-- LIVE DEMO -->
