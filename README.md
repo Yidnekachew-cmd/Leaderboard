@@ -90,21 +90,21 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-
--A Computer (MAC or PC)
--code editor (VSCode,Atom etc...)
--A browser (Chrome,Mozilla,Safari etc...)
--Version Control System (Git and Github)
--NodeJS (https://nodejs.org/en/)
--Webpack {https://webpack.js.org}
-
+```sh
+A Computer (MAC or PC)
+Code editor (VSCode,Atom etc...)
+A browser (Chrome,Mozilla,Safari etc...)
+Version Control System (Git and Github)
+NodeJS (https://nodejs.org/en/)
+Webpack {https://webpack.js.org}
+```
 ### Setup
 
 Clone this repository to your desired folder:
-
+```sh
 cd my-folder
 git clone git@github.com:Yidnekachew-cmd/Leaderboard.git (SSH)
-
+```
 ### Install
 
 Install this project with:
@@ -117,15 +117,14 @@ npm install webpack
 ### Usage
 ```sh
 npm run build
-npm start
 ```
 
 
 ### Run tests
 
-To run tests, run the following command:
+To run, run the following command:
 ```sh
-npm test
+npm start
 ```
 ### Deployment
 
