@@ -73,13 +73,20 @@ A website for organizing daily activities
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- TO DO LIST TASK SCREENSHOT -->
+
+## 🚀 Screenshot <a name="screenshot"></a>
+
+![image](../Leaderboard/src/Icon/Screenshot%202023-03-16%20112820.gif)
+
+
 <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
+## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- - [Coming soon...]() -->
+- [Live link](https://yidnekachew-cmd.github.io/Leaderboard/dist/)
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
