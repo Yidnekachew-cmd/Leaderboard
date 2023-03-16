@@ -6,10 +6,17 @@
   box-sizing: border-box;
 }
 
+body {
+  background: url(./Icon/bg1.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: #ddd;
+  background-color: rgba(21, 36, 64, 0.5);
+  width: 100%;
 }
 
 nav .nav-icons {
@@ -29,6 +36,7 @@ nav .nav-icons {
 
 .nav-icons i {
   width: 100%;
+  color: rgb(221, 221, 221, 0.6);
 }
 
 .input-field {
@@ -42,6 +50,7 @@ nav .nav-icons {
   margin-top: 0.3rem;
   margin-bottom: 0.4rem;
   text-align: center;
+  color: #9393c5;
 }
 
 form input {
@@ -50,8 +59,11 @@ form input {
 
 .input-field input {
   width: 100%;
-  border-radius: 0.5rem;
   padding: 0.2rem;
+  background-color: rgb(164, 164, 192);
+  border-radius: 0.4rem;
+  outline: none;
+  border: none;
 }
 
 .search-field {
@@ -64,69 +76,112 @@ form input {
 
 .search-field i {
   position: absolute;
-  padding-top: 0.3rem;
+  padding-top: 0.2rem;
   padding-left: 0.4rem;
+  color: rgba(14, 14, 14, 0.6);
 }
 
 .search-field input {
   padding: 0.2rem;
   border-radius: 0.5rem;
   margin-right: 2rem;
+  background-color: rgb(164, 164, 192);
+  outline: none;
+  border: none;
 }
 
 main {
-  height: 80vh;
+  height: auto;
+  margin-top: 3rem;
 }
 
 .page-title {
   padding-left: 1rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
+  text-align: center;
+  color: #9393c5;
 }
 
 .content-container {
   display: flex;
+  padding: 3rem;
   width: 70%;
-  margin: 3rem auto;
-  gap: 15rem;
+  height: auto;
+  margin: 1rem auto;
+  gap: 7rem;
+  background-color: rgba(23, 47, 89, 0.5);
+  border: 2px solid rgba(86, 86, 149, 0.3);
+  border-radius: 20px;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 .list-container {
   display: flex;
   justify-content: space-between;
+  color: rgba(188, 188, 228, 0.7);
 }
 
 .name-icon {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+hr {
+  border: 1px solid rgba(86, 86, 149, 0.3);
+  margin-bottom: 0.5rem;
 }
 
 .score-displays {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 .score-display {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+  color: #9393c5;
 }
 
 .score-display .refresh {
   padding: 0 0.5rem;
   height: 30px;
   cursor: pointer;
+  background-color: #8080b3;
+  border-radius: 0.4rem;
+}
+
+.refresh:hover {
+  color: rgb(255, 255, 255, 0.7);
+  background-color: rgba(45, 39, 100, 0.3);
+  transition: 1s ease-in-out;
 }
 
 .score-container {
   list-style-type: none;
   display: flex;
   flex-direction: column;
+  background-color: rgba(45, 39, 100, 0.3);
+  padding: 2rem;
+  border: 1px solid rgba(86, 86, 149, 0.3);
+  border-radius: 2rem;
 }
 
 .add-score {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 40%;
+}
+
+.add-score .add-title {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #9393c5;
 }
 
 .add-score form {
@@ -135,14 +190,29 @@ main {
   gap: 0.5rem;
 }
 
+.add-score input {
+  background-color: rgb(164, 164, 192);
+  border-radius: 0.4rem;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+}
+
+::placeholder {
+  color: rgb(0, 0, 0, 0.7);
+}
+
 .add-score .submit {
   width: 20%;
   align-self: flex-end;
   padding: 0.2rem;
   cursor: pointer;
+  background-color: #8080b3;
+  border-radius: 0.4rem;
 }
 
-footer {
-  background-color: #ddd;
-  height: 6vh;
+.submit:hover {
+  color: rgb(255, 255, 255, 0.7);
+  background-color: rgba(45, 39, 100, 0.3);
+  transition: 1s ease-in-out;
 }

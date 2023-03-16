@@ -11,7 +11,7 @@ const scoreGet = async (scores) => {
       const trophy = sortScores.indexOf(element) < 3 ? '🏆' : '';
       const number = sortScores.indexOf(element) + 1;
       scores.innerHTML += `<li class="list-container">
-      <div class="name-icon"> <div>#${number}</div> <i class="fas fa-user"></i> <div>${element.user}</div> </div> <div>${element.score} ${trophy}</div></li>`;
+      <div class="name-icon"> <div>#${number}</div> <i class="fas fa-user"></i> <div>${element.user}</div> </div> <div>${element.score} ${trophy}</div></li><hr/>`;
     } else {
       scores.innerHTML = 'No Score are available!!';
     }
